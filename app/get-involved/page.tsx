@@ -82,14 +82,6 @@ export default function GetInvolvedPage() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
-                  <Image
-                    src="/images/volunteer-2.jpg"
-                    alt="Volunteers working together"
-                    fill
-                    className="object-cover"
-                  />
-                </div> */}
               </div>
 
               <div className="mt-12">
@@ -157,14 +149,6 @@ export default function GetInvolvedPage() {
 
             <TabsContent value="donate">
               <div className="grid md:grid-cols-1 gap-12 items-center">
-                {/* <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
-                  <Image
-                    src="/images/school-improvement-1.jpg"
-                    alt="Supporting our cause"
-                    fill
-                    className="object-cover"
-                  />
-                </div> */}
                 <div className="w-full">
                   <h3 className="text-2xl font-bold mb-4">Support Our Work</h3>
                   <div className="space-y-4 text-muted-foreground">
@@ -272,9 +256,6 @@ export default function GetInvolvedPage() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
-                  <Image src="/images/training-seminar-1.jpg" alt="Advocacy in action" fill className="object-cover" />
-                </div> */}
                 <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
                   <Image src="/images/engage-meeting.jpg" alt="Advocacy in action" fill className="object-cover" />
                 </div>
@@ -341,9 +322,6 @@ export default function GetInvolvedPage() {
 
             <TabsContent value="partner">
               <div className="grid md:grid-cols-1 gap-12 items-center">
-                {/* <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
-                  <Image src="/images/workshop-1.jpg" alt="Partnership opportunities" fill className="object-cover" />
-                </div> */}
                 <div className="w-full">
                   <h3 className="text-2xl font-bold mb-4">Partner With Us</h3>
                   <div className="space-y-4 text-muted-foreground">
@@ -428,52 +406,6 @@ export default function GetInvolvedPage() {
                   </div>
                 </div>
               </div>
-
-              <div className="mt-12">
-                <h3 className="text-2xl font-bold mb-6">Featured Partners</h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-                  <div className="text-center">
-                    {/* <div className="relative h-32 w-full mb-4">
-                      <Image src="/images/our-partner-4.jpg" alt="Partner logo" fill className="object-contain" />
-                    </div> */}
-                    <h4 className="font-semibold">ABC Corporation</h4>
-                    <p className="text-sm text-muted-foreground">Corporate Partner</p>
-                  </div>
-
-                  <div className="text-center">
-                    {/* <div className="relative h-32 w-full mb-4">
-                      <Image src="/images/our-partner-5.jpg" alt="Partner logo" fill className="object-contain" />
-                    </div> */}
-                    <h4 className="font-semibold">XYZ Foundation</h4>
-                    <p className="text-sm text-muted-foreground">Foundation Partner</p>
-                  </div>
-
-                  <div className="text-center">
-                    {/* <div className="relative h-32 w-full mb-4">
-                      <Image src="/images/our-partner-4.jpg" alt="Partner logo" fill className="object-contain" />
-                    </div> */}
-                    <h4 className="font-semibold">Community Health Alliance</h4>
-                    <p className="text-sm text-muted-foreground">Nonprofit Partner</p>
-                  </div>
-
-                  <div className="text-center">
-                    {/* <div className="relative h-32 w-full mb-4">
-                      <Image src="/images/our-partner-5.jpg" alt="Partner logo" fill className="object-contain" />
-                    </div> */}
-                    <h4 className="font-semibold">City Department of Health</h4>
-                    <p className="text-sm text-muted-foreground">Government Partner</p>
-                  </div>
-                </div>
-
-                <div className="text-center mt-8">
-                  <ApplicationModal
-                    title="Partnership Inquiry"
-                    description="Interested in partnering with us? Please complete this form to start the conversation."
-                  >
-                    <Button>Explore Partnership Opportunities</Button>
-                  </ApplicationModal>
-                </div>
-              </div>
             </TabsContent>
           </Tabs>
         </div>
@@ -490,7 +422,12 @@ export default function GetInvolvedPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="overflow-hidden">
               <div className="relative h-64">
-                <Image src="/images/femh-shero.jpg" alt="Femh Shero's Story" fill className="object-contain" />
+                <Image
+                  src="/placeholder.svg?height=300&width=400"
+                  alt="Femh Shero's Story"
+                  fill
+                  className="object-contain"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">Femh Shero's Story</h3>
@@ -507,8 +444,8 @@ export default function GetInvolvedPage() {
                     name="Femh Shero"
                     role="Volunteer Mentor"
                     duration="2 years"
-                    image="/images/femh-shero.jpg"
-                    backgroundImage="/images/femh-shero.jpg"
+                    image="/placeholder.svg?height=300&width=400"
+                    backgroundImage="/placeholder.svg?height=600&width=800"
                     trigger={
                       <Button variant="outline" size="sm">
                         Read Full Story
@@ -555,7 +492,7 @@ export default function GetInvolvedPage() {
             <Card className="overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="/images/dr-chaka-barasa.jpg"
+                  src="/placeholder.svg?height=300&width=400"
                   alt="Dr. Chaka Barasa's Story"
                   fill
                   className="object-contain"
@@ -576,8 +513,8 @@ export default function GetInvolvedPage() {
                     name="Dr. Chaka Barasa"
                     role="Healthcare Volunteer"
                     duration="3 years"
-                    image="/images/dr-chaka-barasa.jpg"
-                    backgroundImage="/images/dr-chaka-barasa.jpg"
+                    image="/placeholder.svg?height=300&width=400"
+                    backgroundImage="/placeholder.svg?height=600&width=800"
                     trigger={
                       <Button variant="outline" size="sm">
                         Read Full Story
@@ -633,7 +570,12 @@ export default function GetInvolvedPage() {
 
             <Card className="overflow-hidden">
               <div className="relative h-64">
-                <Image src="/images/raul-zihash.jpg" alt="Raul Zihash's Story" fill className="object-contain" />
+                <Image
+                  src="/placeholder.svg?height=300&width=400"
+                  alt="Raul Zihash's Story"
+                  fill
+                  className="object-contain"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">Raul Zihash's Story</h3>
@@ -651,8 +593,8 @@ export default function GetInvolvedPage() {
                     name="Raul Zihash"
                     role="Community and Outreach Director"
                     duration="4 years"
-                    image="/images/raul-zihash.jpg"
-                    backgroundImage="/images/raul-zihash.jpg"
+                    image="/placeholder.svg?height=300&width=400"
+                    backgroundImage="/placeholder.svg?height=600&width=800"
                     trigger={
                       <Button variant="outline" size="sm">
                         Read Full Story
@@ -705,142 +647,6 @@ export default function GetInvolvedPage() {
           </div>
         </div>
       </section>
-
-      {/* Upcoming Opportunities 
-      <section className="py-16 px-4 md:px-6 bg-white">
-        <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold text-center mb-4">Upcoming Opportunities</h2>
-          <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
-            Join us for these upcoming events and volunteer opportunities
-          </p>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image src="/images/training-seminar-1.jpg" alt="Volunteer Orientation" fill className="object-cover" />
-                <div className="absolute top-3 left-3">
-                  <Badge variant="secondary" className="bg-white/80 text-foreground backdrop-blur-sm">
-                    Training
-                  </Badge>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <div className="space-y-1 mb-3">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Calendar size={14} />
-                    <span>June 20, 2025</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Clock size={14} />
-                    <span>6:00 PM - 8:00 PM</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <MapPin size={14} />
-                    <span>Main Office, Downtown</span>
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Volunteer Orientation</h3>
-                <p className="text-muted-foreground mb-4">
-                  Learn about our volunteer opportunities, policies, and procedures in this comprehensive orientation
-                  session.
-                </p>
-                <SignupModal
-                  title="Register for Volunteer Orientation"
-                  description="Join us on June 20, 2025 from 6:00 PM - 8:00 PM at our Main Office for a comprehensive volunteer orientation."
-                  buttonText="Register"
-                >
-                  <Button>Register</Button>
-                </SignupModal>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image src="/images/school-improvement-1.jpg" alt="School Supply Drive" fill className="object-cover" />
-                <div className="absolute top-3 left-3">
-                  <Badge variant="secondary" className="bg-white/80 text-foreground backdrop-blur-sm">
-                    Volunteer
-                  </Badge>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <div className="space-y-1 mb-3">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Calendar size={14} />
-                    <span>July 15-30, 2025</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Clock size={14} />
-                    <span>Various Shifts</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <MapPin size={14} />
-                    <span>Multiple Locations</span>
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Back-to-School Supply Drive</h3>
-                <p className="text-muted-foreground mb-4">
-                  Help collect, sort, and distribute school supplies to students in need for the upcoming school year.
-                </p>
-                <SignupModal
-                  title="Sign Up for School Supply Drive"
-                  description="Volunteer for our Back-to-School Supply Drive happening July 15-30, 2025 at multiple locations."
-                  buttonText="Sign Up"
-                >
-                  <Button>Sign Up</Button>
-                </SignupModal>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image src="/images/workshop-1.jpg" alt="Advocacy Workshop" fill className="object-cover" />
-                <div className="absolute top-3 left-3">
-                  <Badge variant="secondary" className="bg-white/80 text-foreground backdrop-blur-sm">
-                    Workshop
-                  </Badge>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <div className="space-y-1 mb-3">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Calendar size={14} />
-                    <span>August 5, 2025</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Clock size={14} />
-                    <span>1:00 PM - 4:00 PM</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <MapPin size={14} />
-                    <span>Community Center, Riverside</span>
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Advocacy Workshop</h3>
-                <p className="text-muted-foreground mb-4">
-                  Learn effective advocacy techniques and how to speak up for causes you care about in your community.
-                </p>
-                <SignupModal
-                  title="Register for Advocacy Workshop"
-                  description="Join us on August 5, 2025 from 1:00 PM - 4:00 PM at the Community Center in Riverside for an interactive advocacy workshop."
-                  buttonText="Register"
-                >
-                  <Button>Register</Button>
-                </SignupModal>
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="text-center mt-8">
-            <Link href="/events">
-              <Button variant="outline" size="lg">
-                View All Opportunities <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>*/}
 
       {/* FAQ */}
       <section className="py-16 px-4 md:px-6 bg-muted">

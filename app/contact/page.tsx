@@ -21,9 +21,9 @@ export default function ContactPage() {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Contact Us</h1>
-          <p className="text-xl text-white max-w-2xl">
+          {/*<p className="text-xl text-white max-w-2xl">
             We'd love to hear from you. Reach out with questions, ideas, or support.
-          </p>
+          </p>*/}
         </div>
       </section>
 
@@ -59,7 +59,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-lg">Email Us</h3>
                     <div className="text-muted-foreground">
-                      <p>General Inquiries: Trungmusana@gmail.com</p>
+                      <p>General Inquiries: Trungmusana@trungfoundation.org</p>
                     </div>
                   </div>
                 </div>
@@ -207,7 +207,7 @@ export default function ContactPage() {
               <h3 className="text-xl font-bold mb-2">How can I volunteer with your foundation?</h3>
               <p className="text-muted-foreground">
                 We welcome volunteers for various programs and events. Please visit our "Get Involved" page to learn
-                about current volunteer opportunities or contact our volunteer coordinator at Trungmusana@gmail.com.
+                about current volunteer opportunities or contact our volunteer coordinator at trungmusana@trungfoundation.org.
               </p>
             </Card>
 
@@ -215,7 +215,7 @@ export default function ContactPage() {
               <h3 className="text-xl font-bold mb-2">How can I arrange a tour of our facilities?</h3>
               <p className="text-muted-foreground">
                 We offer guided tours of our main office and some program sites by appointment. Please contact us at
-                Trungmusana@gmail.com or call (256) 762-121-251 to schedule a visit.
+                Trungmusana@trungfoundation.org or call (256) 762-121-251 to schedule a visit.
               </p>
             </Card>
 

@@ -313,7 +313,7 @@ export default function AboutPage() {
                       />
                     </div>
                     <h3 className="font-bold text-xl mb-1">Raul Zihash</h3>
-                    <p className="text-primary mb-2">General Secretary</p>
+                    <p className="text-primary mb-2">Chairperson- Board</p>
                     <p className="text-muted-foreground mb-4">
                       Raul coordinates administrative functions and ensures effective communication across all
                       departments.
@@ -348,7 +348,7 @@ export default function AboutPage() {
           <div className="bg-muted p-6 rounded-lg mb-8">
             <div className="relative w-full h-auto rounded-lg overflow-hidden">
               <Image
-                src="/images/leadership-committee.jpeg"
+                src="/images/executive-board.JPG"
                 alt="Trung Foundation Leadership Committee"
                 width={1200}
                 height={600}
@@ -359,7 +359,66 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Executive Committee</h3>
+              <h3 className="text-xl font-bold mb-4">Executive Board</h3>
+              <ul className="space-y-3">
+                <li className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <Users size={16} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Raul Zihash</p>
+                    <p className="text-sm text-muted-foreground">Chairpersonr</p>
+                  </div>
+                </li>
+                <li className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <Users size={16} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Racheal Trung</p>
+                    <p className="text-sm text-muted-foreground">Vice Chairperson</p>
+                  </div>
+                </li>
+                <li className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <Users size={16} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Keryn Precious Kusiima</p>
+                    <p className="text-sm text-muted-foreground">Treasurer</p>
+                  </div>
+                </li>
+                <li className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <Users size={16} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Director Trung Musana</p>
+                    <p className="text-sm text-muted-foreground">Secretary</p>
+                  </div>
+                </li>
+                 <li className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <Users size={16} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Sandrah Nalwoga</p>
+                    <p className="text-sm text-muted-foreground">Board Member</p>
+                  </div>
+                </li>
+                 <li className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <Users size={16} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Kitumba Kelly</p>
+                    <p className="text-sm text-muted-foreground">Board Member</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4">Foundations Secretariat</h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-2">
                   <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
@@ -370,13 +429,22 @@ export default function AboutPage() {
                     <p className="text-sm text-muted-foreground">Executive Director</p>
                   </div>
                 </li>
-                <li className="flex items-center gap-2">
+                 <li className="flex items-center gap-2">
                   <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                     <Users size={16} />
                   </div>
                   <div>
-                    <p className="font-medium">Counsel Aisha Nakisinje</p>
-                    <p className="text-sm text-muted-foreground">Legal Advisor</p>
+                    <p className="font-medium">Shaka Nathan Kagabe</p>
+                    <p className="text-sm text-muted-foreground">Programs Manager</p>
+                  </div>
+                </li>
+                 <li className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <Users size={16} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Prossy Buhinizi</p>
+                    <p className="text-sm text-muted-foreground">General Operations Manager</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-2">
@@ -384,8 +452,8 @@ export default function AboutPage() {
                     <Users size={16} />
                   </div>
                   <div>
-                    <p className="font-medium">Mr. Ken Wandabusi</p>
-                    <p className="text-sm text-muted-foreground">Patron</p>
+                    <p className="font-medium">Ken Wandabusi</p>
+                    <p className="text-sm text-muted-foreground">Finance Manager</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-2">
@@ -393,22 +461,8 @@ export default function AboutPage() {
                     <Users size={16} />
                   </div>
                   <div>
-                    <p className="font-medium">Raul Zihash</p>
-                    <p className="text-sm text-muted-foreground">General Secretary</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-4">Program Directors</h3>
-              <ul className="space-y-3">
-                <li className="flex items-center gap-2">
-                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                    <Users size={16} />
-                  </div>
-                  <div>
-                    <p className="font-medium">Kusiima Keryn Precious</p>
-                    <p className="text-sm text-muted-foreground">Treasurer</p>
+                    <p className="font-medium">Femh Mpiima</p>
+                    <p className="text-sm text-muted-foreground">Communications Manager</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-2">
@@ -416,26 +470,8 @@ export default function AboutPage() {
                     <Users size={16} />
                   </div>
                   <div>
-                    <p className="font-medium">Femh Shero</p>
-                    <p className="text-sm text-muted-foreground">Media coordinator</p>
-                  </div>
-                </li>
-                <li className="flex items-center gap-2">
-                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                    <Users size={16} />
-                  </div>
-                  <div>
-                    <p className="font-medium">Dr Chaka Barasa</p>
-                    <p className="text-sm text-muted-foreground">Health Overseer</p>
-                  </div>
-                </li>
-                <li className="flex items-center gap-2">
-                  <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                    <Users size={16} />
-                  </div>
-                  <div>
-                    <p className="font-medium">Prossy Wandabusi</p>
-                    <p className="text-sm text-muted-foreground">Women's Counselor</p>
+                    <p className="font-medium">Adikini Esther</p>
+                    <p className="text-sm text-muted-foreground">Fundraising Manager</p>
                   </div>
                 </li>
               </ul>

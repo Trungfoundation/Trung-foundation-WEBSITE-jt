@@ -147,8 +147,40 @@ export default function Home() {
                   className="object-cover brightness-[0.7]"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">We Give Hope</h1>
-                  <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">
+                  <h1 className="text-4xl md:text-5xl lg:text-3xl font-bold text-white mb-4">We Give Hope</h1>
+                  <p className="text-xl md:text-1xl text-white mb-8 max-w-1xl">
+                    We give hope, we give love, we give the smile
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <Link href="/about">
+                      <Button size="lg" className="bg-primary hover:bg-primary/90">
+                        About Us
+                      </Button>
+                    </Link>
+                    <Link href="/get-involved">
+                      <Button
+                        size="lg"
+                        variant="outline"
+                        className="bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm"
+                      >
+                        Get Involved
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </CarouselItem>
+             <CarouselItem>
+              <div className="relative h-[500px] w-full">
+                <Image
+                  src="/images/leaders.JPG"
+                  alt="Trung Foundation leaders"
+                  fill
+                  className="object-cover brightness-[0.7]"
+                />
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
+                  <h1 className="text-4xl md:text-5xl lg:text-3xl font-bold text-white mb-4">We Give Hope</h1>
+                  <p className="text-xl md:text-1xl text-white mb-8 max-w-1xl">
                     We give hope, we give love, we give the smile
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">

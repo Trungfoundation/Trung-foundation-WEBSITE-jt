@@ -63,9 +63,9 @@ export default function BlogPage() {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">News & Stories</h1>
-          <p className="text-xl text-white max-w-2xl">
+          {/*<p className="text-xl text-white max-w-2xl">
             Updates, impact stories, and insights from our work around the world
-          </p>
+          </p>*/}
         </div>
       </section>
 
