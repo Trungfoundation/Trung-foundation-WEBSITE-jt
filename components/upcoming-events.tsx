@@ -25,7 +25,7 @@ const upcomingEvents: Event[] = [
     date: "June 15, 2025",
     time: "10:00 AM - 1:00 PM",
     location: "Kampala Community Center",
-    image: "/images/events.jpg",
+    image: "/images/events-photo.jpg", // Fixed image path
     slug: "foundation-general-meeting",
     description:
       "Join us for our annual general meeting where we'll share updates on our programs and plans for the coming year.",
@@ -47,7 +47,7 @@ const upcomingEvents: Event[] = [
     date: "November 30, 2025",
     time: "6:00 PM - 10:00 PM",
     location: "Las Vegas Hotel, Bunga kawuku",
-    image: "/images/healthcare1.jpg",
+    image: "/images/trung-wallpaper-1.jpg", // Fixed image path
     slug: "annual-fundraising-gala",
     description:
       "Join us for an elegant evening of celebration and support as we raise funds for our education initiatives. The event will feature dinner, live entertainment, and inspiring stories from program beneficiaries.",
@@ -58,7 +58,7 @@ const upcomingEvents: Event[] = [
     date: "December 10-15, 2025",
     time: "9:00 AM - 5:00 PM",
     location: "Various Locations",
-    image: "/images/kids-muzungu.jpg",
+    image: "/images/kids-play.jpg", // Fixed image path
     slug: "childrens-christmas-activities",
     description:
       "Spread holiday joy to children in need through our Christmas party, home visits, games, gift distribution, and hospital visits.",
@@ -100,7 +100,7 @@ export function UpcomingEvents() {
                         ? "/images/field-work-mbale.jpeg"
                         : event.title === "Foundation's General Meeting"
                           ? "/images/foundation-general-meeting-flyer.jpeg"
-                          : "/images/events.jpg"
+                          : "/images/events-photo.jpg" // Fixed image path
                     }
                     alt={event.title}
                     fill

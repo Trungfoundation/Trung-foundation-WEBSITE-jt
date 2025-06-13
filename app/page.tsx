@@ -203,12 +203,12 @@ export default function Home() {
               </div>
             </CarouselItem>
           </CarouselContent>
-          <div className="absolute left-4 top-1/2 -translate-y-1/2 z-10">
+          {/*<div className="absolute left-4 top-1/2 -translate-y-1/2 z-10">
             <CarouselPrevious className="bg-white/20 hover:bg-white/40 backdrop-blur-sm" />
           </div>
-          <div className="absolute right-4 top-1/2 -translate-y-1/2 z-10">
+         <div className="absolute right-4 top-1/2 -translate-y-1/2 z-10">
             <CarouselNext className="bg-white/20 hover:bg-white/40 backdrop-blur-sm" />
-          </div>
+          </div>*/}
         </Carousel>
       </section>
 
