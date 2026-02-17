@@ -252,19 +252,7 @@ export default function Home() {
       <section className="py-16 px-4 md:px-6 bg-white">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row gap-8 items-center">
-            <div className="md:w-1/3 flex justify-center">
-              {/* <div className="w-64 h-64 rounded-full border-4 border-primary overflow-hidden relative">
-                <Image
-                  src="/images/trung-musana.jpg"
-                  alt="Foundation Director"
-                  width={256}
-                  height={256}
-                  className="object-cover"
-                  priority
-                />
-              </div>*/}
-            </div>
-            <div className="md:w-2/3">
+            <div className="w-full">
               <h2 className="text-3xl font-bold mb-4">Director's Biography</h2>
               <div className="text-lg text-muted-foreground mb-6">
                 <p className="mb-4">
