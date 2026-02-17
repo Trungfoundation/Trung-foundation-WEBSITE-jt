@@ -251,22 +251,11 @@ export default function Home() {
        </section>
 
       {/* Director's Biography */}
+      {/* Director's Biography */}
       <section className="py-16 px-4 md:px-6 bg-white">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row gap-8 items-center">
-            <div className="md:w-1/3 flex justify-center">
-              {/* <div className="w-64 h-64 rounded-full border-4 border-primary overflow-hidden relative">
-                <Image
-                  src="/images/trung-musana.jpg"
-                  alt="Foundation Director"
-                  width={256}
-                  height={256}
-                  className="object-cover"
-                  priority
-                />
-              </div>*/}
-            </div>
-            <div className="md:w-2/3">
+            <div className="w-full">
               <h2 className="text-3xl font-bold mb-4">Director's Biography</h2>
               <div className="text-lg text-muted-foreground mb-6">
                 <p className="mb-4">
@@ -275,7 +264,7 @@ export default function Home() {
                   Currently, Trung is a Ugandan diplomat serving as a Country representative at Best diplomats and as the the CEO and founding Director of Trung foundation uganda.
                 </p>
                 <p>
-                Andrew Trung has acquired awards such as;
+                  Andrew Trung has acquired awards such as;
                   1. Certificate of appreciation  from Best Diplomats Malaysia, a policy making arm of the UN (Focusing On SDG's)
                   2. Certificate of Prticipation from Best Diplomats, Dubai (2025)
                   3. Diploma in IT, from Makerere University, 2018
@@ -284,17 +273,12 @@ export default function Home() {
                   7. Uganda Certificate of Education from Kawempe Muslim Secondary School (2010-2013)
                   "
                 </p>
-                {/* <p>
-                  "We invite you to join us in this journey of transformation. Together, we can build a more equitable
-                  and sustainable future for all."
-                </p>
               </div>
-              <div className="font-semibold">Andrew Trung Musana</div>
-              <div className="text-muted-foreground">Executive Director</div> */}
             </div>
           </div>
         </div>
       </section>
+
 
       {/* Impact Statistics */}
       <section className="py-16 px-4 md:px-6 bg-muted">
