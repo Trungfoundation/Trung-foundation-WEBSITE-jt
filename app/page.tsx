@@ -170,7 +170,7 @@ export default function Home() {
                 </div>
               </div>
             </CarouselItem>
-             <CarouselItem>
+            <CarouselItem>
               <div className="relative h-[500px] w-full">
                 <Image
                   src="/images/leaders.JPG"
@@ -261,7 +261,7 @@ export default function Home() {
                   Currently, Trung is a Ugandan diplomat serving as a Country representative at Best diplomats and as the the CEO and founding Director of Trung foundation uganda.
                 </p>
                 <p>
-                Andrew Trung has acquired awards such as;
+                  Andrew Trung has acquired awards such as;
                   1. Certificate of appreciation  from Best Diplomats Malaysia, a policy making arm of the UN (Focusing On SDG's)
                   2. Certificate of Prticipation from Best Diplomats, Dubai (2025)
                   3. Diploma in IT, from Makerere University, 2018
