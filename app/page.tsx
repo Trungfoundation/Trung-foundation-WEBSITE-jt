@@ -270,13 +270,7 @@ export default function Home() {
                   7. Uganda Certificate of Education from Kawempe Muslim Secondary School (2010-2013)
                   "
                 </p>
-                {/* <p>
-                  "We invite you to join us in this journey of transformation. Together, we can build a more equitable
-                  and sustainable future for all."
-                </p>
               </div>
-              <div className="font-semibold">Andrew Trung Musana</div>
-              <div className="text-muted-foreground">Executive Director</div> */}
             </div>
           </div>
         </div>
