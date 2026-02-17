@@ -248,8 +248,6 @@ export default function Home() {
         </div>
       </section>
 
-       </section>
-
       {/* Director's Biography */}
       <section className="py-16 px-4 md:px-6 bg-white">
         <div className="container mx-auto max-w-6xl">
