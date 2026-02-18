@@ -324,13 +324,22 @@ export default function Home() {
       {/* Upcoming Events Section */}
       <UpcomingEvents />
 
-      {/* Newsletter Subscription */}
+      {/* Newsletter Subscription 
       <section className="py-16 px-4 md:px-6 bg-primary text-primary-foreground">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
             <p className="text-lg mb-8">Subscribe to our newsletter.</p>
             <NewsletterForm />
+          </div>
+        </div>
+      </section>*/}
+
+      <section className="py-16 px-4 md:px-6 bg-primary text-primary-foreground">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold mb-4">Registration status</h2>
+            <p className="text-lg mb-8">Trung foundation is a fully registered NGO in uganda with the permit number  INDP0007099NB and registration number  INDR176897099NB.</p>
           </div>
         </div>
       </section>
