@@ -256,19 +256,18 @@ export default function Home() {
               <h2 className="text-3xl font-bold mb-4">Director's Biography</h2>
               <div className="text-lg text-muted-foreground mb-6">
                 <p className="mb-4">
-                  "Andrew Trung musana is a Dynamic and result-driven professional with a blend of law and IT expertise, leveraging experience in the NGO sector since 2019.
+                  Andrew Trung musana is a Dynamic and result-driven professional with a blend of law and IT expertise, leveraging experience in the NGO sector since 2019.
                   Trung is highly skilled at driving projects, managing stakeholders, and levearaging Tech for social impact.
                   Currently, Trung is a Ugandan diplomat serving as a Country representative at Best diplomats and as the the CEO and founding Director of Trung foundation uganda.
                 </p>
                 <p>
                   Andrew Trung has acquired awards such as;
-                  1. Certificate of appreciation  from Best Diplomats Malaysia, a policy making arm of the UN (Focusing On SDG's)
-                  2. Certificate of Prticipation from Best Diplomats, Dubai (2025)
-                  3. Diploma in IT, from Makerere University, 2018
-                  4. Diploma in Law (Refugee law project) Makerere University, 2015
-                  5. Uganda Advanced Certificate of Education from Newcastle High school, kansanga (2014-2016)
-                  7. Uganda Certificate of Education from Kawempe Muslim Secondary School (2010-2013)
-                  "
+                 <span> 1. Certificate of appreciation  from Best Diplomats Malaysia, a policy making arm of the UN (Focusing On SDG's)</span>
+                 <span> 2. Certificate of Prticipation from Best Diplomats, Dubai (2025)</span>
+                  <span>3. Diploma in IT, from Makerere University, 2018</span>
+                 <span> 4. Diploma in Law (Refugee law project) Makerere University, 2015</span>
+                  <span>5. Uganda Advanced Certificate of Education from Newcastle High school, kansanga (2014-2016)</span>
+                  <span>7. Uganda Certificate of Education from Kawempe Muslim Secondary School (2010-2013)</span>
                 </p>
               </div>
             </div>
